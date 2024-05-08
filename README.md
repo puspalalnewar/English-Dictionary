@@ -1,1 +1,1 @@
-This is dictionary app.
+
