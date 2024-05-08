@@ -1,0 +1,93 @@
+:root{
+    --header-color : #008080;
+    --bcg-color:#f5f5f5;
+    --padding : 20px;
+    --text-color : #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header{
+    background-color: var(--header-color);
+    padding: var(--padding);
+    color: var(--text-color);
+}
+header h1{
+    font: 36px;
+}
+main{
+    min-height: 84.6vh;
+    padding: var(--padding);
+    max-width: 800px;
+    margin: 0 auto;
+}
+main form{
+    display: flex;
+    justify-content: center;
+}
+form input[type="text"]{
+    flex-grow: 1;
+}
+input{
+    height: 2.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-size: medium;
+}
+button{
+    width: 4rem;
+    /* background: #ffc268; */
+    background-color: #008080;
+    margin-left: 1rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+footer{
+    background-color: var(--header-color);
+    color: var(--text-color);
+    padding: var(--padding);
+    text-align: center;
+}
+.result{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.6rem;
+    padding-right: 1rem;
+    display: none;
+}
+.word-box{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+h3{
+    display: flex;
+    gap: 0.3rem;
+}
+.meaning{
+    font-size: large;
+}
+#btn{
+    height: 3rem;
+    width: 7rem;
+    font-size: medium;
+    color: #fff;
+    display: none;
+    margin-top: 0.7rem;
+}
+#btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
